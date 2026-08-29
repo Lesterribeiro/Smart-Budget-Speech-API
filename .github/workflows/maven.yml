@@ -14,7 +14,7 @@ on:
   pull_request:
     branches: [ "main" ]
 
-permissions:
+permissions: write-all
   contents: read
   dependency-graph: write
 
